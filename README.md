@@ -38,4 +38,4 @@
 - Nota:
   - Debes moverte al directorio de la carpeta, ejemplo:
     - **_cd JS_**
--  
+- 
