@@ -3,3 +3,11 @@ function sum(a, b) {
 }
 
 module.exports = sum;
+
+/**
+ * Otra forma:
+ * module.exports = {
+ *  suma
+ * }
+ * 
+ */
