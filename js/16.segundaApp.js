@@ -1,5 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path'); // Agregamos la importación del módulo 'path'
+const picocolors = require("picocolors");
 
 const folder = process.argv[2] ?? '.';
 
@@ -20,7 +21,7 @@ async function ls(folder) {
         try {
             stats = await fs.stat(filePath);
         } catch (error) {
-            console.log("Error al leer el archivo " + filePath);
+            console.log(picocolors.red("Error al leer el archivo " + filePath) );
             process.exit(1);
         }
 
@@ -37,7 +38,7 @@ async function ls(folder) {
     const results = await Promise.all(filesPromises);
 
     // Imprimimos el resultado
-    results.forEach(result => console.log(result));
+    results.forEach(result => console.log(picocolors.blue(result)));
 }
 
 ls(folder);
