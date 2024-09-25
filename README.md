@@ -38,4 +38,38 @@
 - Nota:
   - Debes moverte al directorio de la carpeta, ejemplo:
     - **_cd JS_**
-- 
+- **_NPM_**
+  - _node pack managment:_
+    - administrado de paquetes
+    - Versión:
+      - **_npm --version_**
+- Otra opción:
+  - **_pnpm_**
+- Instalación en nuestro proyecto:
+  - **_npm init_**
+  - Nos va pedir lo siguiente:
+    - Nombre del paquete: 
+      - **curso-node**
+    - Versión:
+      - **damos ENTER**
+    - Description:
+      - **Pones una descripción**
+    - Entry Point:
+      - **00.index.js** <- ponemos el archivo principal
+    - Test Command:
+      - **_**
+    - Git Repository:
+      - **Ponemos la URL que te da GIT: https://github.com/MorsaDevOmarG/curso-nodejs-midudev**
+    - Keywords:
+      - **curso, node, nodejs, midudev**
+    - Author:
+      - **tu nombre**
+    - License:
+      - **Damos ENTER**
+    - Is this ok?
+      - **Damos ENTER**
+    - Nos va crear un: 
+      - **_PACKAGE.JSON_**
+    - Sino queremos pasar por estas preguntas, en consola ponemos:
+      - **npm init -y**
+    - 
