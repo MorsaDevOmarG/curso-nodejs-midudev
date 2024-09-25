@@ -93,3 +93,6 @@
     - es cuando se arreglan BUGS
   - Ejemplo:
     - **"picocolors": "1.1.0"**
+- Desinstalar una dependencia
+  - **_npm uninstall (nombre dependencia)_**
+- 
