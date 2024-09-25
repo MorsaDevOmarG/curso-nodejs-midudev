@@ -72,4 +72,15 @@
       - **_PACKAGE.JSON_**
     - Sino queremos pasar por estas preguntas, en consola ponemos:
       - **npm init -y**
-    - 
+- Instalación de: **_PICOCOLORS_**
+  - Dependencia para darle estilos a nuestra consola, ejecutamos:
+    - **npm install picocolors**
+  - En el archivo:
+    - **package.json**
+    - Se recomienda en esta parte:
+    - ```
+        "dependencies": {
+          "picocolors": "^1.1.0" <- quitar el circunflejo ^, y dejarla normal
+          "picocolors": "1.1.0"
+        }
+    ```
