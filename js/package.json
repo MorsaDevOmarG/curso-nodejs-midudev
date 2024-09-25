@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/MorsaDevOmarG/curso-nodejs-midudev#readme",
   "dependencies": {
+    "curso-node": "file:",
     "picocolors": "1.1.0"
   },
   "devDependencies": {
