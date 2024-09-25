@@ -95,4 +95,12 @@
     - **"picocolors": "1.1.0"**
 - Desinstalar una dependencia
   - **_npm uninstall (nombre dependencia)_**
+- Dependencias de Producción:
+  - Son aquellas que nuestra APP necesita para funcionar
+- Dependencias de Desarrollo:
+  - Son aquellas que utilizamos cuando estamos en Desarrollo
+- Instalación de Dependencias Desarrollo:
+  - **_npm install semistandard -D_** ó **_npm install semistandard --development__**
+  - Esta es una dependencia para validar la identación y punto y coma en JS.
+- Instalación de ESLINT
 - 
