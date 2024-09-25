@@ -82,5 +82,14 @@
         "dependencies": {
           "picocolors": "^1.1.0" <- quitar el circunflejo ^, y dejarla normal
           "picocolors": "1.1.0"
-        }
-    ```
+        } 
+      ```
+- **_SEMANTIC VERSIONING_**
+  - **X - MAJOR**
+    - es cuando se rompe la compatibilidad hacia atrás
+  - **Y - MINOR**
+    - es cuando se añaden nuevas funcionalidades
+  - **Z - PATCH**
+    - es cuando se arreglan BUGS
+  - Ejemplo:
+    - **"picocolors": "1.1.0"**
