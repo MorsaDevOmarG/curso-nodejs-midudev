@@ -1,0 +1,38 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Curso de MIDUDEV",
+  "main": "00.index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorsaDevOmarG/curso-nodejs-midudev.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev"
+  ],
+  "author": "Omar Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorsaDevOmarG/curso-nodejs-midudev/issues"
+  },
+  "homepage": "https://github.com/MorsaDevOmarG/curso-nodejs-midudev#readme",
+  "dependencies": {
+    "curso-node": "file:",
+    "picocolors": "1.1.0"
+  },
+  "devDependencies": {
+    "semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "semistandard",
+    "rules": {
+      "no-console": "off"
+    }
+  }
+}
